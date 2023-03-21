@@ -4,20 +4,20 @@ Ask the Person coming to the page, whether they consent to us using cookies. Sav
 
 ## Usage
 
-Add the following to your HTML in order to get the script onto the page (always using latest bewegung.jetzt sources):
+Add the following to your HTML in order to get the script onto the page (always using latest dib.de sources):
 
 ```
 <script>
 var script = document.createElement('script');
 script.id = 'cookieconsent';
-script.src = '//bewegung.jetzt/wp-content/uploads/2018/04/cookieconsent.js';
+script.src = '//dib.de/wp-content/uploads/2018/04/cookieconsent.js';
 document.head.appendChild(script);
 
 var style = document.createElement('link');
 style.rel = 'stylesheet'
 style.type = 'text/css'
 style.id = 'cookieconsent-css';
-style.src = '//bewegung.jetzt/wp-content/uploads/2018/04/cookieconsent.css';
+style.src = '//dib.de/wp-content/uploads/2018/04/cookieconsent.css';
 document.head.appendChild(style);
 </script>
 
